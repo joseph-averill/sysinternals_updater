@@ -47,7 +47,7 @@ def main():
         print('temp is: ', temp)
         try:
 #            download latest
-            urllib.request.urlretrieve('https://download.sysinternals.com/files/SysinternalsSuite.zip', zipname)
+            urllib.request.urlretrieve('https://live.sysinternals.com/files/SysinternalsSuite.zip', zipname)
             print('latest downloaded')
 
 #            unzip to install path
